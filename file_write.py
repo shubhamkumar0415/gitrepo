@@ -1,0 +1,6 @@
+file=input()
+tx=open(file,'r+')
+print(tx.read())
+tx.append("abc")
+print(tx.read())
+tx.close()
